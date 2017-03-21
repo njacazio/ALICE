@@ -1,3 +1,4 @@
+#if !defined(__CINT__) || defined(__MAKECINT__)
 #include "TH1F.h"
 #include "TH2F.h"
 #include "TFile.h"
@@ -14,7 +15,7 @@
 #include "AliHeader.h"
 #include "AliGenEventHeader.h"
 #include "AliPID.h"
-
+#endif
 
 // definire istogrammi (ricordarsi di fare il write nel file successivamente)
 TH1F *hdt = new TH1F("hdtPi","pions 0.9 < p_{T} < 1.5 GeV/c;t - t_{exp}^{#pi}",100,-1000,1000);
