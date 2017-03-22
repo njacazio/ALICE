@@ -9,7 +9,7 @@ Jobtag =
       "comment: CheckESD"
       };
 User = "njacazio";
-OutputDir = "/alice/cern.ch/user/n/njacazio/checkesd/$1/#alien_counter_03i#";
+OutputDir = "/alice/cern.ch/user/n/njacazio/TOFMismatch/$1/#alien_counter_03i#";
 Price = 1;
 Executable = "/alice/cern.ch/user/n/njacazio/bin/script.sh";
 Arguments = "";
@@ -21,7 +21,7 @@ SplitMaxInputFileNumber = "30";
 InputDataListFormat = "xml-single";
 InputFile =
        {
-"LF:/alice/cern.ch/user/n/njacazio/checkesd/CheckESD.C"
+"LF:/alice/cern.ch/user/n/njacazio/TOFMismatch/CheckESD.C"
        };
 
 OutputArchive =
