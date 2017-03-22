@@ -14,10 +14,10 @@ Price = 1;
 Executable = "/alice/cern.ch/user/n/njacazio/bin/script.sh";
 Arguments = "";
 #ALIENHOME = "/alice/cern.ch/user/n/njacazio";
-InputDataCollection = "LF:/alice/cern.ch/user/n/njacazio/xmlESD/$1.xml,nodownload";
+InputDataCollection = "LF:/alice/cern.ch/user/n/njacazio/TOFMismatch/$1.xml,nodownload";
 InputDataList = "wn.xml";
 Split = "se";
-SplitMaxInputFileNumber = "30";
+SplitMaxInputFileNumber = "100";
 InputDataListFormat = "xml-single";
 InputFile =
        {
