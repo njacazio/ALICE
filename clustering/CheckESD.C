@@ -98,7 +98,7 @@ void AddDelay();
 void ReMatch();
 
 // macro principale che fa il loop sugli eventi e scrive il file
-Bool_t CheckESD(const char *lista="lista",Bool_t kGRID=0) //per prendere dalla grid;
+Bool_t CheckESD(const char *lista="wn.xml",Bool_t kGRID=1) //per prendere dalla grid;
 //Bool_t CheckESD(const char *lista="lista",Bool_t kGRID=0) // da locale
 {
   char name[300];
