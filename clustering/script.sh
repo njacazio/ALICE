@@ -19,7 +19,9 @@ echo "############## memory : ##############"
 free 2> /dev/null || { [[ `uname` == Darwin ]] && top -l 1 -s 0 | head -8 | tail -3; }
 echo "========================================="
 
+ls -lrth
 aliroot -l -b -q -x CheckESD.C
+ls -lrth
 RET=$?
 if [ "$RET" != "0" ];then
   echo "======== ERROR : taskSpectraPbPb5_MC_MC.C finished with NON zero code: $RET ========"
