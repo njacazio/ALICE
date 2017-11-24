@@ -10,7 +10,7 @@ Path="/alice/sim/${year}/${1}/"
 echo $Path
 # alien_find -x collection "${searchpath} ${what}" > "${listname}"
 for i in ${2}; do
-    command="find -x collection /alice/sim/${year}/${1}/${i}/* AliESDs.root > ${1}_${i}.xml"
+    command="alien_find -x collection /alice/sim/${year}/${1}/${i}/* AliESDs.root > ${1}_${i}.xml"
     echo $command
     sleep 3
     eval $command
